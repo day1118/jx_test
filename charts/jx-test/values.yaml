@@ -5,8 +5,8 @@ replicaCount: 1
 updateStrategy: RollingUpdate
 image:
   name: dperson/transmission
-  repository: draft
-  tag: dev
+  repository: 10.31.243.157:5000/day1118/jx-test
+  tag: 0.0.6
   pullPolicy: IfNotPresent
 service:
   name: jx-test
