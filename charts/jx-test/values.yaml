@@ -21,5 +21,18 @@ resources:
   requests:
     cpu: 100m
     memory: 128Mi
+env:
+ - name: TR_RATIO_LIMIT
+   value: "0"
+ - name: TR_RATIO_LIMIT_ENABLED
+   value: "true"
+ - name: TR_RPC_AUTHENTICATION_REQUIRED   # Unsuure why this setting doesn't work
+   value: "false"
+ - name: TR_DOWNLOAD_DIR
+   value: "/downloads/complete"
+ - name: TR_INCOMPLETE_DIR
+   value: "/downloads/incomplete"
+ - name: TR_INCOMPLETE_DIR_ENABLED
+   value: "true"     
 ingress:
   enabled: false
