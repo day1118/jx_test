@@ -22,11 +22,11 @@ resources:
     cpu: 100m
     memory: 128Mi
 env:
- - TR_RATIO_LIMIT: "0"
- - TR_RATIO_LIMIT_ENABLED: "true"
- - TR_RPC_AUTHENTICATION_REQUIRED: "false"
- - TR_DOWNLOAD_DIR: "/downloads/complete"
- - TR_INCOMPLETE_DIR: "/downloads/incomplete"
- - TR_INCOMPLETE_DIR_ENABLED: "true"     
+ TR_RATIO_LIMIT: "0"
+ TR_RATIO_LIMIT_ENABLED: "true"
+ TR_RPC_AUTHENTICATION_REQUIRED: "false"
+ TR_DOWNLOAD_DIR: "/downloads/complete"
+ TR_INCOMPLETE_DIR: "/downloads/incomplete"
+ TR_INCOMPLETE_DIR_ENABLED: "true"     
 ingress:
   enabled: false
